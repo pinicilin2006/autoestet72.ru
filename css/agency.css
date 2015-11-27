@@ -176,7 +176,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #000000;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -647,10 +647,6 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
-    margin: 50px auto;
-}
-
 section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
@@ -864,4 +860,38 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+#banner {
+    text-align: left;
+    color: #fed136;
+    background-attachment: scroll;
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#banner .intro-text {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+#banner .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+aside.clients img {
+    padding-top: 0px;
+    margin: 50px auto;
+}
+
+.table td, th {
+   text-align: center;  
 }
