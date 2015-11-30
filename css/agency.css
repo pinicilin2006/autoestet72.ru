@@ -895,3 +895,34 @@ aside.clients img {
 .table td, th {
    text-align: center;  
 }
+
+
+
+@media (min-width: 768px) {
+    #banner_3{
+        background-image: url(../img/banner_3_2.jpg);
+        width: 200px;
+        height: 20px;
+    }
+}
+@media (min-width: 980px) {
+    #banner_3{
+        background-image: url(../img/banner_3_1.jpg);
+        width: 400px;
+        height: 24px;
+    }
+}
+@media (min-width: 1200px) {
+    #banner_3{
+        background-image: url(../img/banner_3.jpg);
+        width: 475px;
+        height: 28px;
+    }
+}
+/*@media (min-width: 767px) {
+    #banner_3{
+        background-image: url(../img/banner_3_1.jpg);
+        width: 400px;
+        height: 24px;
+    }
+}*/

@@ -30,7 +30,7 @@ var cbpAnimatedHeader = (function() {
 			classie.add( header, 'navbar-shrink' );
 		}
 		else {
-			classie.remove( header, 'navbar-shrink' );
+			classie.add( header, 'navbar-shrink' );
 		}
 		didScroll = false;
 	}
