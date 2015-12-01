@@ -897,12 +897,32 @@ aside.clients img {
 }
 
 
-
+@media (max-width: 480px) {
+    #logo{
+        background-image: url(../img/logo.png);
+        width: 100px;
+        height: 59px;
+        background-position: center;        
+    }
+}
+@media (min-width: 767px) {
+    #logo{
+        background-image: url(../img/logo.png);
+        width: 100px;
+        height: 59px;
+        background-position: center;        
+    }
 @media (min-width: 768px) {
     #banner_3{
         background-image: url(../img/banner_3_2.jpg);
         width: 200px;
         height: 20px;
+    }
+    #logo{
+        background-image: url(../img/logo.png);
+        width: 100px;
+        height: 59px;
+        background-position: center;        
     }
 }
 @media (min-width: 980px) {
@@ -911,6 +931,12 @@ aside.clients img {
         width: 400px;
         height: 24px;
     }
+    #logo{
+        background-image: url(../img/logo_2.png);
+        width: 200px;
+        height: 118px;
+        background-position: center;        
+    }    
 }
 @media (min-width: 1200px) {
     #banner_3{
@@ -918,11 +944,11 @@ aside.clients img {
         width: 475px;
         height: 28px;
     }
+    #logo{
+        background-image: url(../img/logo_2.png);
+        width: 200px;
+        height: 118px;
+        background-position: center;        
+    }     
 }
-/*@media (min-width: 767px) {
-    #banner_3{
-        background-image: url(../img/banner_3_1.jpg);
-        width: 400px;
-        height: 24px;
-    }
-}*/
+
