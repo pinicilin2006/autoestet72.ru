@@ -904,6 +904,9 @@ aside.clients img {
         height: 59px;
         background-position: center;        
     }
+/*    #phone {
+        display: none;
+    }*/
 }
 @media (min-width: 767px) {
     #logo{
@@ -912,6 +915,10 @@ aside.clients img {
         height: 59px;
         background-position: center;        
     }
+    #phone_1 {
+        display: none;
+    }     
+}    
 @media (min-width: 768px) {
     #banner_3{
         background-image: url(../img/banner_3_2.jpg);
@@ -923,7 +930,7 @@ aside.clients img {
         width: 100px;
         height: 59px;
         background-position: center;        
-    }
+    }    
 }
 @media (min-width: 980px) {
     #banner_3{
@@ -938,6 +945,7 @@ aside.clients img {
         background-position: center;        
     }    
 }
+
 @media (min-width: 1200px) {
     #banner_3{
         background-image: url(../img/banner_3.jpg);
@@ -949,9 +957,13 @@ aside.clients img {
         width: 200px;
         height: 118px;
         background-position: center;        
-    }     
+    }
+    #phone_1 {
+        display: block;
+    }              
 }
-#map{
-    
+
+#phone_1 {
+    font-size: 20px;
 }
 
