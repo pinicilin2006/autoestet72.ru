@@ -866,7 +866,7 @@ body {
     text-align: left;
     color: #fed136;
     background-attachment: scroll;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner_4.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -904,9 +904,12 @@ aside.clients img {
         height: 59px;
         background-position: center;        
     }
-/*    #phone {
+    #phone_banner {
+        display: block;
+    }
+    #phone_1 {
         display: none;
-    }*/
+    }    
 }
 @media (min-width: 767px) {
     #logo{
@@ -917,7 +920,10 @@ aside.clients img {
     }
     #phone_1 {
         display: none;
-    }     
+    }
+    #phone_banner {
+        display: none;
+    }         
 }    
 @media (min-width: 768px) {
     #banner_3{
@@ -930,7 +936,10 @@ aside.clients img {
         width: 100px;
         height: 59px;
         background-position: center;        
-    }    
+    }
+    #phone_banner {
+        display: none;
+    }         
 }
 @media (min-width: 980px) {
     #banner_3{
@@ -943,7 +952,10 @@ aside.clients img {
         width: 200px;
         height: 118px;
         background-position: center;        
-    }    
+    } 
+    #phone_banner {
+        display: none;
+    }        
 }
 
 @media (min-width: 1200px) {
@@ -960,10 +972,22 @@ aside.clients img {
     }
     #phone_1 {
         display: block;
+    } 
+    #phone_banner {
+        display: none;
     }              
 }
 
 #phone_1 {
     font-size: 20px;
+    color: #fed136;
+}
+#phone_banner {
+    font-size: 20px;
+    color: #fed136;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+    position: relative;
+    float: left;
+    margin-top: 12px; 
 }
 
