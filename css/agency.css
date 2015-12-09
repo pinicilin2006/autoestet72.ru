@@ -990,4 +990,10 @@ aside.clients img {
     float: left;
     margin-top: 12px; 
 }
-
+#slogan {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.price td, th {
+    vertical-align: middle!important;
+    color: #777;
+}
