@@ -1025,12 +1025,12 @@ aside.clients img {
 #hidden_panel {
     position: fixed; /* положение */
     top: 100px; /* отступ сверху */
-    left: -220px; /* отступ слева */
+    left: -291px; /* отступ слева */
     background: lavender; /* цвет фона */
     color: #000; /* цвет текста */
-    width: 200px; /* ширина блока */
-    height: 150px; /* высота блока */
-    padding: 10px; /* отступы от границ внутри блока */
+    width: 291px; /* ширина блока */
+    height: 100px; /* высота блока */
+    padding: 0px; /* отступы от границ внутри блока */
     text-align: left; /* выравнивание текста */
 
     -webkit-transition-duration: 0.3s; /* анимационное выдвижение для всех браузеров*/
@@ -1043,7 +1043,7 @@ aside.clients img {
     border-radius: 0 5px 5px 0;
     }
 #panel:hover {
-    left: 220px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
+    left: 291px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
 }
 #panel:hover #hidden_panel {
     left: 0; /* отступ слева */
