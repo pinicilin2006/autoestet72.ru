@@ -1042,9 +1042,11 @@ aside.clients img {
     -moz-border-radius: 0 5px 5px 0;
     border-radius: 0 5px 5px 0;
     }
+/*
 #panel:hover {
     left: 291px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
 }
+*/
 #panel:hover #hidden_panel {
     left: 0; /* отступ слева */
 }
