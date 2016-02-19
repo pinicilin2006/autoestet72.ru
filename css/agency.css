@@ -1001,7 +1001,7 @@ aside.clients img {
 /* ВНЕШНИЙ БЛОК */
 #panel {
     position: fixed; /* положение */
-    top: 100px; /* отступ сверху */
+    top: 150px; /* отступ сверху */
     left: 0; /* отступ слева */
     background: red; /* цвет фона */
     width: 30px; /* ширина блока */
@@ -1024,7 +1024,7 @@ aside.clients img {
 /* СКРЫТЫЙ БЛОК */
 #hidden_panel {
     position: fixed; /* положение */
-    top: 100px; /* отступ сверху */
+    top: 150px; /* отступ сверху */
     left: -291px; /* отступ слева */
     background: lavender; /* цвет фона */
     color: #000; /* цвет текста */
